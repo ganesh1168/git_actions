@@ -19,8 +19,8 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Install Dependencies
-        run: pip install -r requirements.txt
+      # - name: Install Dependencies
+      #   run: pip install -r requirements.txt
 
       - name: Deploy Python App
         run: python app.py
